@@ -1,7 +1,7 @@
 import n_gram
 
-_string = 'I am an NLPer'
-_n = 2
+STRING = 'I am an NLPer'
+N = 2
 
-print(n_gram.create(_string.split(' '), _n))
-print(n_gram.create(_string, _n))
+print(n_gram.create(STRING.split(' '), N))
+print(n_gram.create(STRING, N))

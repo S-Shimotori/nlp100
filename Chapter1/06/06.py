@@ -1,10 +1,10 @@
 import n_gram
 
-_string0 = 'paraparaparadise'
-_string1 = 'paragraph'
+STRING_X = 'paraparaparadise'
+STRING_Y = 'paragraph'
 
-x = n_gram.create(_string0, 2)
-y = n_gram.create(_string1, 2)
+x = n_gram.create(STRING_X, 2)
+y = n_gram.create(STRING_Y, 2)
 
 print('x: ', x)
 print('y: ', y)
