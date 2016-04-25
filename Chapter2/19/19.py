@@ -1,0 +1,8 @@
+import collections
+from functools import reduce
+
+hightemp = open("../hightemp.txt")
+hightemp_data = hightemp.readlines()
+hightemp.close()
+
+print(collections.Counter(list(map(lambda line: line.split("\t")[0], hightemp_data))))
