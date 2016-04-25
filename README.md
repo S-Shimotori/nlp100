@@ -9,3 +9,8 @@ http://www.cl.ecei.tohoku.ac.jp/nlp100/
 ```bash
 pyenv install 3.5.1
 ```
+
+```bash
+echo $ZSH_VERSION
+5.2
+```
