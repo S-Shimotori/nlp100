@@ -11,6 +11,20 @@ pyenv install 3.5.1
 ```
 
 ```bash
+pip3 install mecab-python3==0.7
+```
+
+```bash
+pip3 install six==1.10.0
+pip3 install cycler==0.10.0
+pip3 install numpy==1.11.0
+pip3 install pyparsing==2.1.1
+pip3 install python-dateutil==2.5.3
+pip3 install pytz==2016.4
+pip3 install matplotlib==1.5.1
+```
+
+```bash
 echo $ZSH_VERSION
 5.2
 ```
