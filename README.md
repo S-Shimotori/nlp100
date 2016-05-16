@@ -6,13 +6,33 @@ http://www.cl.ecei.tohoku.ac.jp/nlp100/
 
 ## 方針等
 
+### Python
+
 ```bash
 pyenv install 3.5.1
 ```
 
+### MeCab and CaboCha
+
 ```bash
 pip3 install mecab-python3==0.7
 ```
+
+```bash
+brew install crf++
+crf_learn -v
+CRF++ of 0.58
+
+brew install cabocha
+cabocha -v
+cabocha of 0.69
+
+tar xf cabocha-0.69.tar.bz2
+cd cabocha-0.69/python
+python3.5 setup.py install
+```
+
+### matplotlib
 
 ```bash
 pip3 install six==1.10.0
@@ -24,7 +44,10 @@ pip3 install pytz==2016.4
 pip3 install matplotlib==1.5.1
 ```
 
+### Zsh
+
 ```bash
+brew install zsh
 echo $ZSH_VERSION
 5.2
 ```
