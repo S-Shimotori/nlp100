@@ -27,6 +27,9 @@ class Chunk:
     def get_surfaces_without_symbol(self):
         return reduce(lambda result, morph: result + morph.surface, filter(lambda morph: morph.pos != '記号', self.morphs), '')
 
+    def has_pos(self, pos):
+        return reduce(lambda result, morph: result or morph.pos == pos, self.morphs, False)
+
 
 def create_chunk(lines):
     splitted = lines[0].split(' ')
