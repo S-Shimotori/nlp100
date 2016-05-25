@@ -44,6 +44,12 @@ pip3 install pytz==2016.4
 pip3 install matplotlib==1.5.1
 ```
 
+### Graphviz
+
+```bash
+pip3 install graphviz==0.4.10
+```
+
 ### Zsh
 
 ```bash
